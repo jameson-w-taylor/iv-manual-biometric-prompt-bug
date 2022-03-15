@@ -3,10 +3,11 @@ This application was created to demonstrate a bug in IV when manually prompting 
 
 ## Developer Setup
 1. Copy a `.npmrc` file with the required product key to use `@ionic-enterprise/identity-vault` or sign in to npm if you're on the Ionic team.
-2. Add the iOS platform (`ionic cap add ios`)
-3. Add the required [NSFaceIDUsageDescription](https://ionic.io/docs/identity-vault/install#capacitor-requirements) to `info.plist`
-4. Open in Xcode (`ionic cap open ios`) and run on a device with biometrics enrolled
-5. Open safari and use the developer tools to view the console output while running the app
+2. Run `npm install`
+3. Add the iOS platform (`ionic cap add ios`)
+5. Add the required [NSFaceIDUsageDescription](https://ionic.io/docs/identity-vault/install#capacitor-requirements) to `info.plist`
+5. Open in Xcode (`ionic cap open ios`) and run on a device with biometrics enrolled
+6. Open safari and use the developer tools to view the console output while running the app
 
 ## Bug Reproduction
 After following the setup steps above, notice the following behavior when clicking the button to trigger the biometric prompt:
