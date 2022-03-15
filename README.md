@@ -13,7 +13,7 @@ This application was created to demonstrate a bug in IV when manually prompting 
 After following the setup steps above, notice the following behavior when clicking the button to trigger the biometric prompt:
   - The prompt is shown as expected
   - The prompt is dismissed after you successfully authenticate
-  - **The Bug** - Only 2 of the 5 `console.log` are output
+  - **The Bug** - Only 2 of the 5 `console.log` are output ([code](https://github.com/jameson-w-taylor/iv-manual-biometric-prompt-bug/blob/main/src/app/home/home.page.ts#L13-L28))
       1. "showBiometricPrompt invoked"
       2. "showing prompt"
       3. ~~"prompt authenticated successfully"~~ (_never reached_)
