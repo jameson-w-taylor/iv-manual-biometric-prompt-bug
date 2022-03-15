@@ -1,0 +1,7 @@
+{
+  "name": "manual-biometric-prompt",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
